@@ -1,0 +1,35 @@
+/* Optional article starting point. Inline styles before editor import.
+   Scope to <section class="humanize-article">; inspect actual editor output. */
+.humanize-article {
+  box-sizing: border-box;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 24px 20px;
+  background: #ffffff;
+  color: #20211e;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+.humanize-article h1 { margin: 0 0 24px; font-size: 27px; line-height: 1.4; font-weight: 700; }
+.humanize-article h2 { margin: 36px 0 16px; color: #98432e; font-size: 21px; line-height: 1.5; font-weight: 700; }
+.humanize-article h3 { margin: 24px 0 12px; font-size: 17px; line-height: 1.6; font-weight: 700; }
+.humanize-article p { margin: 0 0 18px; }
+.humanize-article a { color: #24583e; text-decoration: underline; }
+.humanize-article strong { font-weight: 700; }
+.humanize-article ul, .humanize-article ol { margin: 12px 0 20px; padding-left: 24px; }
+.humanize-article li { margin: 0 0 8px; }
+.humanize-article figure { margin: 24px 0; }
+.humanize-article img { display: block; max-width: 100%; height: auto; margin: 0 auto; }
+.humanize-article figcaption { margin-top: 8px; color: #596057; font-size: 13px; line-height: 1.7; text-align: left; }
+.humanize-article blockquote { margin: 20px 0; padding: 2px 0 2px 16px; border-left: 3px solid #d5d1c8; color: #4d554c; }
+.humanize-article blockquote p { margin: 8px 0; }
+.humanize-article code { font-family: Consolas, "SFMono-Regular", monospace; font-size: 0.9em; background: #f4f1ea; padding: 1px 4px; }
+.humanize-article pre { margin: 20px 0; padding: 14px; background: #f4f1ea; font-size: 13px; line-height: 1.7; white-space: pre-wrap; overflow-wrap: anywhere; }
+.humanize-article pre code { padding: 0; background: transparent; }
+.humanize-article table { width: 100%; margin: 20px 0; border-collapse: collapse; font-size: 14px; }
+.humanize-article th, .humanize-article td { border: 1px solid #d5d1c8; padding: 8px; text-align: left; }
+.humanize-article th { background: #f4f1ea; font-weight: 600; }
+.humanize-article hr { margin: 32px 0; border: 0; border-top: 1px solid #d5d1c8; }

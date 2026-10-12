@@ -1,0 +1,4 @@
+interface:
+  display_name: "Humanize · 文案与呈现"
+  short_description: "保留作者语气，调整叙事与文案，安排配图、网页及公众号排版"
+  default_prompt: "用 $humanize 按我的表达习惯润色这篇文章，并根据用途调整配图和排版。"
