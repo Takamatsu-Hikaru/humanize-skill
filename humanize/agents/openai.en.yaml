@@ -1,0 +1,4 @@
+interface:
+  display_name: "Humanize · Writing and presentation"
+  short_description: "Edit for purpose, substance, continuity, and authorial voice"
+  default_prompt: "Use $humanize to edit this piece in my voice: first review its throughline, paragraph roles, and substance, then its expression and continuity; adjust visuals and layout where needed."

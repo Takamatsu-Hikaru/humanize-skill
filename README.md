@@ -1,5 +1,7 @@
 # humanize
 
+[English](README_EN.md) · [中文技能](humanize/SKILL.md) · [English skill](humanize/SKILL.en.md)
+
 **让 AI 重新说人话，写人字。**
 
 小学弟给你扔来一份 AI 写的报告。标题是“我们接下来应该怎么做”，正文是“先建立认知，再逐步探索”，结尾是“形成完整闭环，实现全面提升”。
@@ -10,7 +12,7 @@
 
 红温了。🔥
 
-`humanize` 是一份中文写作与编辑 skill，来自指南、赛事方案和资源页的实际修改。它让 AI 根据读者和用途重新组织表达：标题说清内容，正文提供信息，保留作者的判断，删掉多余的引导、说教和自我解释。
+`humanize` 是一份中英文写作与编辑 skill，来自指南、赛事方案和资源页的实际修改。它让 AI 根据读者和用途重新组织表达：标题说清内容，正文提供信息，保留作者的判断，删掉多余的引导、说教和自我解释。
 
 [下载 skill 安装包](https://github.com/Takamatsu-Hikaru/humanize-skill/releases/latest/download/humanize.zip) · [技能正文](humanize/SKILL.md) · [完整修改案例](humanize/references/before-after.md)
 
@@ -43,9 +45,19 @@
 
 “怎么”“先后”“一个两个”都不是禁词。“测评后十天答辩”说明时间关系，“三份赛题说明”给出准确数量。需要处理的是没有信息作用的引导和填充。
 
+## 两遍检查
+
+**第一遍看内容。** 整篇最终想传达什么，各 part 和每段为什么出现在这里，给前文增加了什么，怎样接到后文？主线、铺垫、例子和资源是否连贯，核心内容有没有被提醒挤掉，哪些地方值得展开，哪些只是在重复？
+
+**第二遍看表达。** 读起来是否自然，有没有过度教学、正确但无用的话、防御性声明和自我弱化？也检查删减后是否太干，丢了经验和判断。事实、条件、引用和独有链接要保留；双语内容对齐意图和信息，不照搬句式。
+
+检查在编辑过程中完成，不必把每次改稿都变成两轮报告。局部修改按相关上下文检查，已经成立的段落不用为了“更像人”再写一遍。
+
 ## 使用
 
 下载 [humanize.zip](https://github.com/Takamatsu-Hikaru/humanize-skill/releases/latest/download/humanize.zip)，解压后将 `humanize` 文件夹放入你的 Agent 使用的 skills 目录，保留其中的子目录。
+
+需要英文指令，可下载 [humanize-en.zip](https://github.com/Takamatsu-Hikaru/humanize-skill/releases/latest/download/humanize-en.zip)。两个包使用同一个技能名 `humanize`，选择一个安装即可；技能说明的语言不限制输出语言。英文包的正文、案例、配图与排版参考均为英文。
 
 支持显式调用 skill 的工具中，可以这样请求：
 
@@ -65,6 +77,7 @@
 ```text
 humanize/
 ├── SKILL.md                     写作判断与工作方式
+├── SKILL.en.md                  对应英文说明
 ├── agents/openai.yaml           技能显示信息
 ├── references/
 │   ├── before-after.md          指南与赛事方案的修改对照
@@ -72,6 +85,8 @@ humanize/
 │   └── github-references.md     相关项目与参考来源
 └── assets/wechat-base.css       文章排版样式起点
 ```
+
+三个参考文件均有 `.en.md` 英文版；英文安装包使用英文 `SKILL.md` 和显示信息，并保留 `SKILL.zh.md` 中文说明。
 
 纯文案使用不需要安装额外依赖。配图和排版部分按任务选用当前可用的工具。
 
