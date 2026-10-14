@@ -25,6 +25,8 @@ Before generation, establish the subject, paragraph placement, aspect ratio, and
 
 ## Page hierarchy
 
+For multi-page knowledge bases or course collections, also use [knowledge-base review](knowledge-base-review.en.md). Apply the main skill's proactive review to actual pages: text links, readable images, distinct prompts, and clear resource roles must work together. Neither prose-only checks nor screenshots alone establish all of these. Inspect other authorized instances when a repeated component has a defect.
+
 The title states the subject, the introduction establishes the reason for the piece, and subheadings separate content. Use connected prose. Lists and tables belong where information is parallel, comparative, or genuinely procedural.
 
 Use paragraph spacing, heading hierarchy, image width, and whitespace for rhythm. Emphasize the information readers need to catch when scanning; do not bold every paragraph's first sentence or split an article into dozens of two-sentence cards.

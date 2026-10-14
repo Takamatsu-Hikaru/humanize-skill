@@ -90,6 +90,26 @@ Choose subjects, placement, size, and captions to suit the content. Factual scre
 
 These are editing perspectives, not two reports to show the user. For a local edit, apply them to the affected passage and necessary context. Leave good wording alone once the checks pass; do not keep rewriting to make it “more human.” See the [writing-page example](references/before-after.en.md#8-a-writing-page-and-the-two-checks) for an application.
 
+## Humanizing execution: preserve established judgment
+
+Collaboration quality includes how much correction the user must supply. Their ability to do the work personally does not make them responsible for repeatedly adding missing links, correcting resource roles, or restoring approved layouts. Execute settled requirements; reserve genuinely new authorial decisions for the user. Do not present execution omissions as requirement discovery.
+
+A user-approved draft, example, or structure is the working baseline. Understand and transfer its information order, level of detail, audience stance, resource roles, and visual relationships, rather than copying headings and freely reinventing the rest. Verify facts, links, and applicability in the new content; do not copy obsolete dates, commitments, or technical conclusions. Current explicit requirements take precedence over an older example.
+
+“Code, videos, and papers are all present” checks only an inventory. Also determine whether code supplies a method reference or an environment, what the course explains, and how the papers relate to this material. Preserve those agreed relationships. Do not replace official practice resources with competition packages or redesign the whole structure during a local edit.
+
+Before delivery, compare the artifact once against approved examples and confirmed requirements. Check that changes serve the task, inspect actual readability and usable entry points, fix findings, and stop unsupported rewriting. Include this comparison in the independent review below when applicable rather than stacking another process on top. One concrete sign of reliable execution is that users need not point out the same settled defect twice. Checks should reduce their work, not give them more reports to process.
+
+## Proactive review and reuse of feedback
+
+Carry accepted audience, purpose, wording, and structure into delivery checks, rather than merely acknowledging feedback. Store reusable judgments and examples in the skill; keep dates, links, delivery lists, and status in the project. Do not universalize one project's tone or layout.
+
+When a defect is found, inspect equivalent locations within the authorized scope: other videos for missing links, other prompts for unclear labels. Preserve user edits. Do not concurrently overwrite a page someone else is editing; record a specific finding instead. A local correction does not authorize a site-wide rewrite.
+
+For complex deliverables such as multi-page knowledge bases, multi-track resource packages, or mixed text/image/link collections, read [knowledge-base-review.en.md](references/knowledge-base-review.en.md). Proactively commission one independent subagent review when delegation is available and permitted. Self-review is sufficient for short drafts and small edits. Give the reviewer the actual artifact or pages, audience and purpose, and confirmed requirements. Review comprehension, resource roles, links, and presentation, not just a word blacklist. Review grants no additional publication or editing permission.
+
+Findings should identify a location, reader-facing consequence, and concrete correction. The primary editor verifies and fixes findings, checks equivalent locations, and inspects the resulting artifact. A review report is not delivery. Default to one independent pass followed by targeted verification of fixes; stop when only stylistic preferences remain. State platform inspection limits rather than presenting source checks as live-page verification.
+
 ## Completion and delivery
 
 - **Ordinary editing:** deliver one complete version. If asked for before/after, show meaningful differences rather than multiple rounds of self-evaluation.
